@@ -1,0 +1,40 @@
+/***************************** 
+Стили для модального окна авторизации пользователей
+********************************/
+.modal-sing {
+	display: block;
+	width: 360px;
+	border-radius: 10px;
+	border: 2px solid #9099b7;
+	position: absolute;
+	top: 200px;
+	left: calc(50% - 200px);
+	padding: 20px;
+	max-height: 400px;
+	background: #e3e9f3;
+}
+
+.modal-sing .close-sing {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	text-decoration: none;
+
+}
+
+#button-color {
+	/* Кнопка войти*/
+	background-color: #c1c6d8;
+	margin: 25px;
+	margin-left: 100px;
+	padding: 20px;
+	border-radius: 50px;
+	outline: none;
+	border: none;
+
+}
+
+#button-color:hover {
+	color: yellow;
+}
